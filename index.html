@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matilda Salón Mexicano | Mérida, Yucatán</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #faf7f2;
+      color: #333;
+    }
+    header {
+      background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092');
+      background-size: cover;
+      background-position: center;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0,0,0,0.7);
+      padding: 10px 0;
+      text-align: center;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.5rem;
+    }
+    .about, .location {
+      text-align: center;
+      line-height: 1.8;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .menu-item {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .menu-item h3 {
+      margin-top: 0;
+    }
+    footer {
+      background: #2b2b2b;
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#menu">Menú</a>
+    <a href="#ubicacion">Ubicación</a>
+  </nav>
+
+  <header id="inicio">
+    <div>
+      <h1>Matilda Salón Mexicano</h1>
+      <p>Sabores tradicionales con alma yucateca</p>
+    </div>
+  </header>
+
+  <section id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p class="about">
+      Matilda Salón Mexicano es un restaurante ubicado en Mérida, Yucatán, donde la cocina mexicana
+      se vive con pasión, tradición y un toque contemporáneo. Cada platillo está inspirado en los
+      sabores auténticos de México, resaltando ingredientes locales y recetas que cuentan historias.
+    </p>
+  </section>
+
+  <section id="menu">
+    <h2>Nuestro Menú</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <h3>Cochinita Pibil</h3>
+        <p>Carne de cerdo marinada en achiote, cocida lentamente y servida con cebolla morada y tortillas.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Panuchos</h3>
+        <p>Tortillas rellenas de frijol negro, fritas y acompañadas de pollo, lechuga y aguacate.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Salbutes</h3>
+        <p>Masa frita crujiente con pollo deshebrado, jitomate y cebolla morada.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Agua de Chaya</h3>
+        <p>Bebida tradicional yucateca, fresca y natural.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="ubicacion">
+    <h2>Ubicación</h2>
+    <p class="location">
+      📍 Mérida, Yucatán, México<br />
+      ⏰ Lunes a Domingo: 1:00 PM – 11:00 PM<br />
+      📞 Reservaciones disponibles
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Matilda Salón Mexicano · Mérida, Yucatán</p>
+  </footer>
+
+</body>
+</html>
